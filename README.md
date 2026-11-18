@@ -10,8 +10,8 @@ Bu proje, **Fırat Üniversitesi Yazılım Mühendisliği Bölümü** **Nesne Ta
 
 ## Kurulum ve Çalıştırma Adımları
 1. Depoyu bilgisayarınıza klonlayın:
-   git clone [https://github.com/yusuftugradeveci23/YMH219-FlappyBird.git]
-2. İndirilen klasör içerisindeki `YMH219-FlappyBird.slnx` (veya `.csproj`) dosyasını Visual Studio ile açın.
+   `git clone https://github.com/yusuftugradeveci23/YMH219-FlappyBird.git`
+2. İndirilen klasör içerisindeki `YMH219-FlappyBird/YMH219-FlappyBird.slnx` (veya `.csproj`) dosyasını Visual Studio ile açın.
 3. Üst menüden **Derle > Çözümü Derle (Build Solution)** işlemini gerçekleştirin.
 4. **F5** tuşuna basarak veya **Başlat (Start)** butonuna tıklayarak uygulamayı çalıştırın.
 
@@ -19,7 +19,7 @@ Bu proje, **Fırat Üniversitesi Yazılım Mühendisliği Bölümü** **Nesne Ta
 * **Nesne Tabanlı Mimari:** Oyun mantığı `Bird` (kuş fiziği), `PipePair` (engel çiftleri) ve `GameEngine` (skor, hız ve çarpışma yönetimi) sınıflarına ayrılmıştır.
 * **Fizik ve Oyun Döngüsü:** `Timer` bileşeni ile 50 FPS akıcılıkta yer çekimi ve zıplama (`Space` / `Yukarı Ok`) mekanikleri uygulanmıştır.
 * **Dinamik Zorluk ve Rekor Kaydı:** Her 5 puanda bir boru geçiş hızı artar; en yüksek skor yerel `highscore.txt` dosyasında kalıcı olarak saklanır.
-* **Oyun Durum Yönetimi:** Çarpışma anında oyun durdurulur, Game Over ekranı gösterilir ve **Yeniden Başlat** butonu ile oyun sıfırlanabilir.
+* **Oyun Durum Yönetimi:** Çarpışma anında oyun durdurulur, Game Over ekranı gösterilir ve **Yeniden Başlat** buttonu ile oyun sıfırlanabilir.
 
 ## Ekran Görüntüleri
 
